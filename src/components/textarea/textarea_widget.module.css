@@ -33,6 +33,10 @@
     opacity: .5;
     line-height: 20px;
 }
+.text_span {
+    opacity: 1;
+    line-height: 20px;
+}
 
 
 .empty {
@@ -41,6 +45,7 @@
 }
 .empty_with_text {
     display: inline;
+    min-inline-size: 5px;
 }
 [contenteditable]:focus {
     outline: 0 solid transparent;
