@@ -75,15 +75,13 @@ export const TextareaWidget = () => {
 
     const handleSecondElementChange = (e) => {
         let value = e.target.innerText
-        let range = document.createRange();
-        let sel = getSelection()
-        range.setStart(e.target.childNodes[0], 0); // устанавливаем начальную точку диапазона
-        sel.removeAllRanges(); // удаляем все диапазоны из выделения
-        sel.addRange(range)
+
         if (!secondElementValue) {
             value = e.target.innerText.slice(0,1)
+            setCaretPosition(e.target.childNodes[0], e.target.childNodes[0].length)
         }
-        setSecondElementValue(value)
+        setCaretPosition(e.target.childNodes[0], e.target.childNodes[0].length)
+        //setSecondElementValue(value)
     }
     const handleSecondElementClick = (e) => {
         if (!secondElementValue) {
