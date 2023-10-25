@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Textarea_project/static/css/main.406ecb73.css",
-    "main.js": "/Textarea_project/static/js/main.d059a796.js",
+    "main.css": "/Textarea_project/static/css/main.2e0e28d6.css",
+    "main.js": "/Textarea_project/static/js/main.76157690.js",
     "index.html": "/Textarea_project/index.html",
-    "main.406ecb73.css.map": "/Textarea_project/static/css/main.406ecb73.css.map",
-    "main.d059a796.js.map": "/Textarea_project/static/js/main.d059a796.js.map"
+    "main.2e0e28d6.css.map": "/Textarea_project/static/css/main.2e0e28d6.css.map",
+    "main.76157690.js.map": "/Textarea_project/static/js/main.76157690.js.map"
   },
   "entrypoints": [
-    "static/css/main.406ecb73.css",
-    "static/js/main.d059a796.js"
+    "static/css/main.2e0e28d6.css",
+    "static/js/main.76157690.js"
   ]
 }
