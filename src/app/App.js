@@ -1,10 +1,10 @@
 import React from 'react'
-import {Textarea} from "../components/textarea/Textarea"
+import {TextareaWidget} from "../components/textarea/TextareaWidget"
 
 export const App = () => {
   return (
     <div className="App">
-      <Textarea/>
+      <TextareaWidget/>
     </div>
   );
 }
