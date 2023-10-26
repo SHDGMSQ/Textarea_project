@@ -1,5 +1,5 @@
 import React from 'react'
-import {TextareaWidget} from "../components/test/TextareaWidget"
+import {TextareaWidget} from "../components/textarea_widget/TextareaWidget"
 
 export const App = () => {
   return (
