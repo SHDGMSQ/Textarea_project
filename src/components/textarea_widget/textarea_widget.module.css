@@ -1,0 +1,49 @@
+.textarea_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.textarea {
+    border: 3px solid teal;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 330px;
+    margin: 0 10px;
+}
+.textarea_inner {
+    padding: 5px;
+    min-height: 61px;
+    width: 18rem;
+}
+.select_inner {
+    width: max-content;
+    height: max-content;
+    margin: 0 5px;
+}
+.select {
+    width: auto;
+    height: 20px;
+    background-color: #0adada3d;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+select:active, select:focus{
+    outline:none
+}
+.text {
+    opacity: .5;
+    line-height: 20px;
+}
+.empty {
+    min-inline-size: 5px;
+    cursor: text;
+}
+.empty_with_text {
+    display: inline;
+}
+[contenteditable]:focus {
+    outline: 0 solid transparent;
+    caret-color: blue;
+}
